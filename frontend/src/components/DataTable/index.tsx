@@ -1,3 +1,5 @@
+/* Componente para visualização de dados na tabela */
+
 const DataTable = () => {
     return (
         <div className="table-responsive">
