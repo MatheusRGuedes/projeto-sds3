@@ -21,7 +21,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
  * 	 permite o aplicativo ser executado no domínio com permissão de acesso de recursos selecionados do servidor;
  * --> tira a tela padrão de login do security
  * 
- * @Configuration --> Indica que a classe é de configuração do projeto
+ * - @Configuration --> Indica que a classe é de configuração do projeto
  * */
 
 @Configuration
