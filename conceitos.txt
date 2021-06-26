@@ -1,0 +1,12 @@
+tsconfig.json	--> arquivo com configurações de como será feito a compilação do typescript;
+		    - baseUrl: "./src" (orienta o typecript q os arquivos q vamos importar estarão na pasta src, sem ele n encontra os css exemplo)
+
+_redirects	--> arquivo necessário pr q o projeto funcione corretamente no netlify (serviço de hospedagem);
+		--> pelo react ser sigle page application, n há arquivos html para cada página, por isso esse arquivo é necessário para fazer as
+		    rotas funcionarem;
+
+Netlify 	--> Ao fazer o teste do primeiro deploy, ocorrerá um erro caso for de um mono repositório do github;
+		--> Indicar a pasta dos arquivos do frontend;
+		    - ir em settings: build & deploy > base directory > informar a pasta do projeto frontend
+
+Spring Security --> Como no projeto está sendo utilizado o Spring Security, temos que permitir o frontend de se autenticar na apricação spring;
